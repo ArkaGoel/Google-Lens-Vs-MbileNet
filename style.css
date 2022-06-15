@@ -1,0 +1,26 @@
+#mynav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#sec1 {
+    background-color: aqua;
+}
+
+#sec2 {
+    background-color: cadetblue;
+}
+
+img {
+    width: 20%;
+}
+
+h3 {
+    font-family: 'Source Sans Pro';
+}
+
+.image_and_result {
+    border-radius: 20px;
+    background-color: gray;
+}

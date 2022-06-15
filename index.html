@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Lens Vs MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
+        integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<center>
+
+    <body>
+        <nav class="navbar-inverse my_nav_bar" id="mynav">
+            <div class="navbar-header"></div>
+            <a class="navbar-brand" href="#">Comparison of Two tools</a>
+            <div class="collapse navbar-collapse" id="my_nav">
+                <ul class="nav navbar-nav">
+                    <li><a href="#sec1">Home</a></li>
+                    <li><a href="#sec2">About</a></li>
+                    <li><a href="#sec3">Tabular Comparison</a></li>
+                    <li><a href="#sec4">Visual Compasrison</a></li>
+                </ul>
+        </nav>
+        </div>
+        <br><br>
+        <section id="sec1">
+            <h1><b>Google Lens Vs MobileNet (Which is better?) Case Study</b></h1>
+            <div id="head_div1">
+                <img src="lens.png">
+                <br>
+                <img src="or.jpg">
+                <br>
+                <img src="mobilenet.png">
+        </section>
+        <section id="sec2">
+            <h1>About The Tools</h1>
+            <br>
+            <h3>MobileNet - It is a neural network in machine learning to identify over <br>1.3 million images and it
+                also identifies the images in realtime.</h3>
+            <iframe src="https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html"
+                style="border:0px #ffffff none;" name="myiFrame" frameborder="1" marginheight="0px" marginwidth="0px"
+                height="400px" width="600px"></iframe>
+
+            <br><br><br>
+            <h3>Google Lens- It is a tool available online to identify images like<br>MobileNet only but it uses
+                different engine it uses Google's Built in AI<br>to identify images and give the result</h3>
+            <iframe src="https://en.wikipedia.org/wiki/Google_Lens" style="border:0px #ffffff none;" name="myiFrame"
+                frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px"></iframe>
+        </section>
+        <section id="sec3">
+            <h1>Tabular Comparison</h1>
+            <table border="5">
+                <tr>
+                    <th>Object</th>
+                    <th>Google Lens</th>
+                    <th>MobileNet</th>
+                </tr>
+                <tr>
+                    <td>Water Bottle</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Airpodes</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Book</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Remote</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Pen</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Cup</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Cap</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Chair</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Spoon</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+                <tr>
+                    <td>Headphones</td>
+                    <td>Next Project</td>
+                    <td>Next Project</td>
+                </tr>
+            </table>
+        </section>
+        </div>
+        <section id="sec4">
+            <h1>Visual Comparison</h1>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Water Bottle-</b>
+                        <img src="bottle.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Airpodes</b>
+                        <img src="airepods.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Book</b>
+                        <img src="Book.jpeg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Remote</b>
+                        <img src="Remote.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Phone</b>
+                        <img src="Phone.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Pen</b>
+                        <img src="Pen.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Cup</b>
+                        <img src="cup.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Cap</b>
+                        <img src="Cap.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Chair</b>
+                        <img src="Chair.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+            <ol>
+                <div class="image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Headphones</b>
+                        <img src="Headphonedse.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS-</b>
+                        <span></span>
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MobileNet Model-</b>
+                            <span></span>
+                        </h5>
+                        <div class="mini-result" class="col-xs-12">
+                            <h4>Result-</h4>
+                            <hr>
+                            <h4></h4>
+                        </div>
+                </div>
+            </ol>
+
+        </section>
+    </body>
+</center>
+
+</html>
